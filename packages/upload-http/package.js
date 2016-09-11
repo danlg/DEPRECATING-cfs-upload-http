@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'cfs:upload-http',
-  version: '0.0.19',
+  name: 'danlg:upload-http',
+  version: '0.0.21',
   summary: 'CollectionFS, HTTP File Upload',
-  git: 'https://github.com/CollectionFS/Meteor-cfs-upload-http.git'
+  git: 'https://github.com/danlg/DEPRECATING-cfs-upload-http.git'
 });
 
 Package.onUse(function(api) {
