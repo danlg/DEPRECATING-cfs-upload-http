@@ -98,7 +98,7 @@ httpCall = function(method, url, options, callback) {
       xhr.responseType = "arraybuffer";
       convertToBinary = true;
     } else {
-      xhr.responseType = options.responseType;
+      xhr.responseType = options.responseType || "";
     }
 
     for (var k in headers)
